@@ -22,7 +22,7 @@ docker rmi [image-name]
 Let's build the image:
 
 ```sh
-docker build -t pdincau/workshop_java_8
+docker build -t pdincau/workshop_java_8 .
 ```
 
 Now we can run a command inside the newly created image:
